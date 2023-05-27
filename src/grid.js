@@ -1,7 +1,7 @@
 const letter = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J"];
 
-function renderGrid() {
-    const gameboard = document.querySelector(".gameboard");
+function renderGrid(el) {
+    const gameboard = el;
     for(let col = 0; col < 10; col++) {
         const test = document.createElement("div");
         test.className = `${letter[col]}`;
