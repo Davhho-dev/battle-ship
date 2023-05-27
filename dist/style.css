@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,
+html {
+    min-height: 100vh;
+    background-color: black;
+}
+
+:root {
+    --pri-font: "Press Start 2P";
+}
+
+header {
+    margin-top: 5rem;
+    font-family: var(--pri-font);
+    font-size: 2rem;
+    color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+[class*="sq"] {
+    width: 100px;
+    height: 100px;
+    color: green;
+    font-size: 1.5rem;
+    border: 1px solid green;
+}
+
+[class*="sq"]:hover {
+    background-color: white;
+}
+
+.gameboard {
+    margin-top: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
