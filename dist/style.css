@@ -32,9 +32,9 @@ header {
     border: 1px solid green;
 }
 
-[class*="sq"]:hover {
+/* [class*="sq"]:hover {
     background-color: white;
-}
+} */
 
 .gameboard {
     margin-top: 5rem;
